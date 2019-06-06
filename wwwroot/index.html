@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>html2canvas demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>HTML to IMAGE demo website</h1>
+            <div id="clock-container">
+            <h4>Current Time:</h4>
+            <h4 id="clock"></h4>
+        </div>
+        <div id="button-container">
+            <a href="#" id="btn-snap" class="btn btn-success">Snap</a>
+            <a href="#" id="btn-download" class="btn btn-success disabled">Download</a>
+        </div>
+        <p id="snap-success" class="hidden">HTML rendering was successful.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/html2canvas.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
